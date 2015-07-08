@@ -1,5 +1,7 @@
 #pragma once
 
+#include <type_traits>
+
 namespace reflect {
 
 template<class T, int IS_CONST = std::is_const<T>::value>
